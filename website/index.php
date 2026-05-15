@@ -12,7 +12,7 @@ include 'header.php';
     <div class="content">
         <h3>secure your web. understand your data.</h3>
         <p>MAZANGIZO delivers penetration testing, code reviews, staff training, and data science solutions for African businesses. Think like a spider on your own web.</p>
-        <a href="insights.php" class="btn"> Why choose us <span class="fas fa-chevron-right"></span> </a>
+        <a href="insights.php" class="btn"> Why choose us? <span class="fas fa-chevron-right"></span> </a>
     </div>
 </section>
 <!-- home section ends -->
