@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  
+  <!-- Spider web (central) -->
+  <circle cx="250" cy="250" r="200" fill="none" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+  <circle cx="250" cy="250" r="160" fill="none" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+  <circle cx="250" cy="250" r="120" fill="none" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+  <circle cx="250" cy="250" r="80" fill="none" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+  <circle cx="250" cy="250" r="40" fill="none" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Radial lines -->
+  <line x1="250" y1="50" x2="250" y2="450" stroke="#16a085" stroke-width="1.5" opacity="0.25"/>
+  <line x1="50" y1="250" x2="450" y2="250" stroke="#16a085" stroke-width="1.5" opacity="0.25"/>
+  <line x1="108" y1="108" x2="392" y2="392" stroke="#16a085" stroke-width="1.5" opacity="0.25"/>
+  <line x1="392" y1="108" x2="108" y2="392" stroke="#16a085" stroke-width="1.5" opacity="0.25"/>
+  <line x1="180" y1="75" x2="320" y2="425" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+  <line x1="320" y1="75" x2="180" y2="425" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+  <line x1="75" y1="180" x2="425" y2="320" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+  <line x1="75" y1="320" x2="425" y2="180" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Spider at center -->
+  <circle cx="250" cy="250" r="18" fill="#16a085"/>
+  <circle cx="250" cy="250" r="12" fill="#0e6b58"/>
+  <circle cx="245" cy="247" r="2.5" fill="#fff"/>
+  <circle cx="255" cy="247" r="2.5" fill="#fff"/>
+  
+  <!-- Spider legs -->
+  <path d="M238 242 L215 225 M236 248 L210 245 M236 254 L215 268" stroke="#0e6b58" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M262 242 L285 225 M264 248 L290 245 M264 254 L285 268" stroke="#0e6b58" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M242 235 L230 210 M258 235 L270 210" stroke="#0e6b58" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M242 265 L230 290 M258 265 L270 290" stroke="#0e6b58" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Small bugs trapped in web -->
+  <circle cx="150" cy="180" r="5" fill="#444" opacity="0.4"/>
+  <circle cx="350" cy="320" r="4" fill="#444" opacity="0.35"/>
+  <circle cx="200" cy="380" r="3" fill="#444" opacity="0.3"/>
+  
+  <!-- Security badge shield at bottom -->
+  <path d="M250 400 L280 415 L280 445 C280 460 265 470 250 475 C235 470 220 460 220 445 L220 415 Z" 
+        fill="#16a085" opacity="0.85"/>
+  <text x="250" y="447" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold" font-family="sans-serif">✓</text>
+  
+  <!-- Security text -->
+  <text x="250" y="490" text-anchor="middle" font-size="11" fill="#16a085" opacity="0.7" font-family="monospace">SECURE • TRUST • PROTECT</text>
+</svg>

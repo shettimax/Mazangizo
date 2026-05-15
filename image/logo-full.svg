@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 60" height="45">
+  
+  <defs>
+    <style>
+      .logo-text {
+        fill: var(--text-color, #444);
+      }
+      .logo-tagline {
+        fill: var(--green, #16a085);
+      }
+      .logo-spider-body {
+        fill: var(--green, #16a085);
+      }
+      .logo-spider-inner {
+        fill: var(--green-dark, #0e6b58);
+      }
+      .logo-spider-eye {
+        fill: #ffffff;
+      }
+      .logo-spider-leg {
+        stroke: var(--green, #16a085);
+      }
+    </style>
+  </defs>
+  
+  <!-- Spider icon -->
+  <g transform="translate(0, 5)">
+    <circle cx="25" cy="25" r="10" class="logo-spider-body"/>
+    <circle cx="25" cy="25" r="7" class="logo-spider-inner"/>
+    <circle cx="25" cy="18" r="5" class="logo-spider-body"/>
+    <circle cx="23" cy="17" r="1.5" class="logo-spider-eye"/>
+    <circle cx="27" cy="17" r="1.5" class="logo-spider-eye"/>
+    <path d="M17 22 L8 17 M16 24 L6 22 M16 27 L8 32" class="logo-spider-leg" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M33 22 L42 17 M34 24 L44 22 M34 27 L42 32" class="logo-spider-leg" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M25 10 Q28 5 25 0" class="logo-spider-leg" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M25 10 Q22 5 25 0" class="logo-spider-leg" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- MAZANGIZO text -->
+  <text x="50" y="36" font-family="'Poppins', sans-serif" font-size="22" font-weight="700" class="logo-text" letter-spacing="2">MAZANGIZO</text>
+  
+  <!-- Tagline -->
+  <text x="52" y="50" font-family="'Poppins', sans-serif" font-size="9" class="logo-tagline" letter-spacing="1.5" opacity="0.85">SECURITY • DATA • TRUST</text>
+  
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  
+  <!-- Magnifying glass outer ring -->
+  <circle cx="250" cy="230" r="120" fill="none" stroke="#16a085" stroke-width="8" opacity="0.9"/>
+  
+  <!-- Magnifying glass inner ring -->
+  <circle cx="250" cy="230" r="105" fill="none" stroke="#16a085" stroke-width="3" opacity="0.4"/>
+  
+  <!-- Glass area (transparent) -->
+  <circle cx="250" cy="230" r="100" fill="#16a085" opacity="0.08"/>
+  
+  <!-- Spider web inside magnifying glass -->
+  <circle cx="250" cy="230" r="85" fill="none" stroke="#16a085" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="250" cy="230" r="65" fill="none" stroke="#16a085" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="250" cy="230" r="45" fill="none" stroke="#16a085" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="250" cy="230" r="25" fill="none" stroke="#16a085" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Radial web lines inside glass -->
+  <line x1="250" y1="130" x2="250" y2="330" stroke="#16a085" stroke-width="1.5" opacity="0.35"/>
+  <line x1="150" y1="230" x2="350" y2="230" stroke="#16a085" stroke-width="1.5" opacity="0.35"/>
+  <line x1="165" y1="145" x2="335" y2="315" stroke="#16a085" stroke-width="1.5" opacity="0.35"/>
+  <line x1="335" y1="145" x2="165" y2="315" stroke="#16a085" stroke-width="1.5" opacity="0.35"/>
+  
+  <!-- Spider at center of web -->
+  <circle cx="250" cy="230" r="14" fill="#16a085"/>
+  <circle cx="250" cy="230" r="9" fill="#0e6b58"/>
+  <circle cx="246" cy="227" r="2" fill="#fff"/>
+  <circle cx="254" cy="227" r="2" fill="#fff"/>
+  
+  <!-- Spider legs -->
+  <path d="M240 222 L222 210 M239 228 L216 225 M240 236 L222 248" stroke="#0e6b58" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M260 222 L278 210 M261 228 L284 225 M260 236 L278 248" stroke="#0e6b58" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M244 218 L235 200 M256 218 L265 200" stroke="#0e6b58" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M244 242 L235 260 M256 242 L265 260" stroke="#0e6b58" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Small bugs/vulnerabilities caught in web -->
+  <circle cx="190" cy="180" r="5" fill="#e74c3c" opacity="0.7"/>
+  <circle cx="310" cy="280" r="4" fill="#e74c3c" opacity="0.6"/>
+  <circle cx="290" cy="175" r="3" fill="#e74c3c" opacity="0.5"/>
+  <circle cx="200" cy="275" r="3.5" fill="#e74c3c" opacity="0.5"/>
+  
+  <!-- Magnifying glass handle -->
+  <rect x="340" y="300" width="30" height="100" rx="15" fill="#16a085" opacity="0.9" transform="rotate(45, 355, 350)"/>
+  
+  <!-- Handle grip lines -->
+  <line x1="348" y1="320" x2="362" y2="334" stroke="#fff" stroke-width="2" opacity="0.3"/>
+  <line x1="344" y1="330" x2="358" y2="344" stroke="#fff" stroke-width="2" opacity="0.3"/>
+  <line x1="340" y1="340" x2="354" y2="354" stroke="#fff" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Sparkle / find indicator -->
+  <path d="M420 80 L425 70 L430 80 L440 85 L430 90 L425 100 L420 90 L410 85 Z" fill="#16a085" opacity="0.6"/>
+  <path d="M100 380 L103 373 L106 380 L113 383 L106 386 L103 393 L100 386 L93 383 Z" fill="#16a085" opacity="0.4"/>
+  
+  <!-- "we find what others miss" text -->
+  <text x="250" y="460" text-anchor="middle" font-size="13" fill="#16a085" opacity="0.7" font-family="monospace" font-weight="bold">we find what others miss</text>
+  
+  <!-- Small checkmarks -->
+  <text x="180" y="420" font-size="16" fill="#16a085" opacity="0.6">✓</text>
+  <text x="310" y="430" font-size="16" fill="#16a085" opacity="0.6">✓</text>
+  <text x="230" y="445" font-size="12" fill="#16a085" opacity="0.5">✓</text>
+  <text x="265" y="415" font-size="12" fill="#16a085" opacity="0.5">✓</text>
+  
+</svg>

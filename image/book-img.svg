@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  
+  <!-- Envelope -->
+  <rect x="100" y="170" width="300" height="160" rx="10" fill="#ffffff" stroke="#16a085" stroke-width="3" opacity="0.95"/>
+  
+  <!-- Envelope flap -->
+  <path d="M100 170 L250 280 L400 170" fill="none" stroke="#16a085" stroke-width="3"/>
+  <path d="M100 170 L250 280 L400 170" fill="#16a085" opacity="0.1"/>
+  
+  <!-- Lock on envelope -->
+  <rect x="225" y="210" width="50" height="35" rx="4" fill="#16a085" opacity="0.9"/>
+  <path d="M215 210 L215 195 C215 178 228 170 250 170 C272 170 285 178 285 195 L285 210" 
+        fill="none" stroke="#16a085" stroke-width="5" stroke-linecap="round"/>
+  <rect x="248" y="225" width="4" height="10" fill="#ffffff"/>
+  <circle cx="250" cy="222" r="5" fill="#ffffff"/>
+  <circle cx="250" cy="222" r="2.5" fill="#16a085"/>
+  
+  <!-- Security checkmarks -->
+  <text x="155" y="300" font-size="28" fill="#16a085" opacity="0.7">✓</text>
+  <text x="345" y="300" font-size="28" fill="#16a085" opacity="0.7">✓</text>
+  
+  <!-- Binary / security lines -->
+  <text x="140" y="360" font-size="11" fill="#16a085" opacity="0.6" font-family="monospace">>_ encrypted</text>
+  <text x="310" y="360" font-size="11" fill="#16a085" opacity="0.6" font-family="monospace">secure channel</text>
+  
+  <!-- Small network nodes -->
+  <circle cx="130" cy="140" r="4" fill="#16a085" opacity="0.5"/>
+  <circle cx="370" cy="140" r="4" fill="#16a085" opacity="0.5"/>
+  <circle cx="250" cy="120" r="3" fill="#16a085" opacity="0.4"/>
+  
+  <line x1="130" y1="140" x2="250" y2="120" stroke="#16a085" stroke-width="1" opacity="0.35"/>
+  <line x1="370" y1="140" x2="250" y2="120" stroke="#16a085" stroke-width="1" opacity="0.35"/>
+  <line x1="130" y1="140" x2="370" y2="140" stroke="#16a085" stroke-width="1" opacity="0.25"/>
+  
+  <!-- Contact bubble -->
+  <path d="M250 400 L250 380 C250 355 210 355 210 380 L210 400 L220 400 L225 410 L230 400 Z" 
+        fill="#16a085" opacity="0.75"/>
+  <circle cx="230" cy="388" r="3" fill="#fff"/>
+  <circle cx="240" cy="388" r="3" fill="#fff"/>
+  <circle cx="250" cy="388" r="3" fill="#fff"/>
+  
+  <!-- Bottom text -->
+  <text x="250" y="440" text-anchor="middle" font-size="12" fill="#16a085" opacity="0.65" font-family="monospace">send us a message</text>
+</svg>

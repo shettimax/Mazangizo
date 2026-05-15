@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16a085;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0e6b58;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield -->
+  <path d="M250 80 L380 130 L380 250 C380 340 320 400 250 440 C180 400 120 340 120 250 L120 130 Z" 
+        fill="url(#shieldGrad)" opacity="0.9" stroke="#0e6b58" stroke-width="3"/>
+  
+  <!-- Lock on shield -->
+  <rect x="225" y="220" width="50" height="40" rx="5" fill="#ffffff" opacity="0.95"/>
+  <path d="M215 220 L215 200 C215 180 230 170 250 170 C270 170 285 180 285 200 L285 220" 
+        fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="250" cy="240" r="8" fill="#16a085"/>
+  <rect x="247" y="240" width="6" height="12" fill="#16a085"/>
+  
+  <!-- Spider web lines from shield -->
+  <line x1="250" y1="80" x2="250" y2="30" stroke="#16a085" stroke-width="2" opacity="0.5"/>
+  <line x1="250" y1="30" x2="220" y2="10" stroke="#16a085" stroke-width="1.5" opacity="0.4"/>
+  <line x1="250" y1="30" x2="280" y2="10" stroke="#16a085" stroke-width="1.5" opacity="0.4"/>
+  <line x1="250" y1="30" x2="250" y2="5" stroke="#16a085" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Spider -->
+  <circle cx="250" cy="55" r="6" fill="#444"/>
+  <circle cx="248" cy="53" r="1.5" fill="#fff"/>
+  <circle cx="252" cy="53" r="1.5" fill="#fff"/>
+  <path d="M244 55 L235 48 M244 57 L234 55 M244 59 L235 62" stroke="#444" stroke-width="1.5" fill="none"/>
+  <path d="M256 55 L265 48 M256 57 L266 55 M256 59 L265 62" stroke="#444" stroke-width="1.5" fill="none"/>
+  
+  <!-- Binary code particles -->
+  <text x="90" y="300" font-size="12" fill="#16a085" opacity="0.6" font-family="monospace">010011</text>
+  <text x="370" y="280" font-size="12" fill="#16a085" opacity="0.6" font-family="monospace">101100</text>
+  <text x="80" y="400" font-size="10" fill="#16a085" opacity="0.4" font-family="monospace">110</text>
+  <text x="400" y="420" font-size="10" fill="#16a085" opacity="0.4" font-family="monospace">001</text>
+  
+  <!-- Nodes/network dots -->
+  <circle cx="140" cy="350" r="4" fill="#16a085" opacity="0.5"/>
+  <circle cx="360" cy="370" r="4" fill="#16a085" opacity="0.5"/>
+  <circle cx="170" cy="390" r="3" fill="#16a085" opacity="0.4"/>
+  <circle cx="330" cy="400" r="3" fill="#16a085" opacity="0.4"/>
+  
+  <!-- Connection lines -->
+  <line x1="140" y1="350" x2="170" y2="390" stroke="#16a085" stroke-width="1" opacity="0.3"/>
+  <line x1="360" y1="370" x2="330" y2="400" stroke="#16a085" stroke-width="1" opacity="0.3"/>
+  <line x1="140" y1="350" x2="250" y2="440" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+  <line x1="360" y1="370" x2="250" y2="440" stroke="#16a085" stroke-width="1" opacity="0.2"/>
+</svg>
