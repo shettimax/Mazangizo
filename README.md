@@ -1,1 +1,1 @@
-# hospital-website
+# Mazangizo website
