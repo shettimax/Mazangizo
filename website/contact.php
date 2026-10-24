@@ -42,9 +42,9 @@ include 'header.php';
         <form method="POST">
             <h3>request a quote</h3>
             <?php if(isset($success)): ?>
-                <p style="color: green; background: #e8f5e9; padding: 1rem; border-radius: .5rem;"><?php echo $success; ?></p>
+                <p class="form-msg ok"><?php echo $success; ?></p>
             <?php elseif(isset($error)): ?>
-                <p style="color: red; background: #ffebee; padding: 1rem; border-radius: .5rem;"><?php echo $error; ?></p>
+                <p class="form-msg err"><?php echo $error; ?></p>
             <?php endif; ?>
             <input type="text" name="name" placeholder="your name" class="box" required>
             <input type="text" name="company" placeholder="company name" class="box">

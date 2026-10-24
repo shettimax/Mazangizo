@@ -50,11 +50,9 @@ if (isset($_COOKIE['darkmode']) && $_COOKIE['darkmode'] === 'true') {
             return null;
         }
         
-        // apply dark mode if cookie says true
-        const darkModeCookie = getCookie('darkmode');
-        if (darkModeCookie === 'true') {
-            document.body.classList.add('dark-mode');
-        }
+        // dark mode is applied server-side via the body class (see PHP above);
+        // script.js re-applies it once the DOM is ready. document.body does not
+        // exist yet while this <head> script runs, so nothing to do here.
     </script>
 </head>
 <body class="<?php echo $dark_mode_class; ?>">
